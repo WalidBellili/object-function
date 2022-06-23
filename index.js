@@ -61,3 +61,28 @@ const cat = {
 // }
 // addUp(2)
 
+// 06 - Time
+
+// let hour = 0
+// let minuts = 0
+// let seconds = 0
+// const format = (num) => {
+//     hour = num / 3600
+//     console.log(Math.floor(hour));
+//     minuts = num % 3600
+//     minuts  = minuts/60 
+//     console.log(Math.floor(minuts));
+//     seconds = (num % 3600) % 60
+//     console.log(seconds);
+//     console.log(` ${Math.floor(hour)} : ${Math.floor(minuts)} : ${seconds}`);
+    
+
+// }
+// format(3700)
+
+// 07 - Password generation
+
+const generatePassword = (num) => {
+
+}
+generatePassword()
