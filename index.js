@@ -13,13 +13,25 @@ const cat = {
 
 // 02 - Combine
 
-const cat2 = {
-    name: "Tom",
-    age: "30",
-    isCute: false,
-}
+// const cat2 = {
+//     name: "Tom",
+//     age: "30",
+//     isCute: false,
+// }
 
-const cats = [cat, cat2]
+// const cats = [cat, cat2]
 // console.log(cats);
 // console.log(cats[0].age);
-console.log(cats[1].isCute);
+// console.log(cats[1].isCute);
+
+// 03 - Even
+
+const checkIfEven = (num) => {
+    if (num % 2 === 0) {
+        console.log("even");
+    } else {
+        console.log("odd");
+    }
+}
+checkIfEven(13)
+console.log();
