@@ -26,12 +26,25 @@ const cat = {
 
 // 03 - Even
 
-const checkIfEven = (num) => {
-    if (num % 2 === 0) {
-        console.log("even");
-    } else {
-        console.log("odd");
+// const checkIfEven = (num) => {
+//     if (num % 2 === 0) {
+//         console.log("even");
+//     } else {
+//         console.log("odd");
+//     }
+// }
+// checkIfEven(13)
+// console.log();
+
+// 04 - Compare
+
+const compare = (x, y) => {
+    if (x > y) {
+        console.log("x is bigger");
+    } else if (x<y) {
+        console.log("y is bigger");
+    } else if (x ===y) {
+        console.log("both are the same");
     }
 }
-checkIfEven(13)
-console.log();
+compare(3,3);
