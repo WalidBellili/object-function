@@ -38,13 +38,26 @@ const cat = {
 
 // 04 - Compare
 
-const compare = (x, y) => {
-    if (x > y) {
-        console.log("x is bigger");
-    } else if (x<y) {
-        console.log("y is bigger");
-    } else if (x ===y) {
-        console.log("both are the same");
-    }
-}
-compare(3,3);
+// const compare = (x, y) => {
+//     if (x > y) {
+//         console.log("x is bigger");
+//     } else if (x<y) {
+//         console.log("y is bigger");
+//     } else if (x ===y) {
+//         console.log("both are the same");
+//     }
+// }
+// compare(3,3);
+
+//05 - Add Up 
+// let box = 0
+// const addUp = (num) => {
+
+//     for (let i = 0; i <= num; i++) {
+//          box = box + i
+//         }
+//         console.log(box);
+
+// }
+// addUp(2)
+
