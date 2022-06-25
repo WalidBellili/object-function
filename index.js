@@ -81,14 +81,21 @@ const cat = {
 // format(3700)
 
 // 07 - Password generation
+let string = ""
 
 const format = (num) => {   
-    for (let i = 65; i <=90 ; i++) {
-    num = Math.floor(Math.random(i)*90 +1);
-        
-    }
-    console.log(num);
-    return num
+    let password = ""
+    for (let i = 0; i <num ; i++) {
+    password +=  String.fromCharCode(Math.floor(Math.random()* 26)+ 65)
+    
 }
-format(1)
+if (password.length>=6 && password.length <=15) {
+    console.log(` ${password}`);
+} else {
+    console.log("no");
+
+}
+
+}
+format(12)
 // console.log(String.fromCharCode(65,90));
