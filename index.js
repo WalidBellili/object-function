@@ -82,7 +82,13 @@ const cat = {
 
 // 07 - Password generation
 
-const generatePassword = (num) => {
-
+const format = (num) => {   
+    for (let i = 65; i <=90 ; i++) {
+    num = Math.floor(Math.random(i)*90 +1);
+        
+    }
+    console.log(num);
+    return num
 }
-generatePassword()
+format(1)
+// console.log(String.fromCharCode(65,90));
