@@ -103,15 +103,27 @@ const cat = {
 // exo8
 let des1 = 0
 let des2 = 0
+let joueur1 = 0
+let joueur2 = 0
 const launchDice = (numberOfDice) => {
-
-    for (let i = 0; i <= numberOfDice; i++) {
-        
+    for (let i = 0; i <= numberOfDice; i++) {        
         des1 = Math.ceil(Math.random(i)* 6)
         des2 = Math.ceil(Math.random(i)* 6)
-        console.log(des1, des2);
-        
+        // console.log(des1, des2);
     }
-
+    return des1 , des2
 }
-launchDice(5)
+// console.log(des1 + des2);
+joueur1 = launchDice(5)
+joueur2 = launchDice(5)
+console.log(joueur1);
+console.log(joueur2);
+if (joueur1> joueur2) {
+    console.log("joueur 1 a gagné");
+} else if (joueur1< joueur2) {
+    console.log("joueur2 a gagné");
+} else if (joueur1 === joueur2) {
+    console.log("egalité");
+} else {
+    
+}
