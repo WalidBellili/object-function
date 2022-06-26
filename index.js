@@ -81,21 +81,37 @@ const cat = {
 // format(3700)
 
 // 07 - Password generation
-let string = ""
+// let string = ""
 
-const format = (num) => {   
-    let password = ""
-    for (let i = 0; i <num ; i++) {
-    password +=  String.fromCharCode(Math.floor(Math.random()* 26)+ 65)
+// const format = (num) => {   
+//     let password = ""
+//     for (let i = 0; i <num ; i++) {
+//     password +=  String.fromCharCode(Math.floor(Math.random()* 26)+ 65)
     
-}
-if (password.length>=6 && password.length <=15) {
-    console.log(` ${password}`);
-} else {
-    console.log("no");
+// }
+// if (password.length>=6 && password.length <=15) {
+//     console.log(` ${password}`);
+// } else {
+//     console.log("no");
 
-}
+// }
 
-}
-format(12)
+// }
+// format(12)
 // console.log(String.fromCharCode(65,90));
+
+// exo8
+let des1 = 0
+let des2 = 0
+const launchDice = (numberOfDice) => {
+
+    for (let i = 0; i <= numberOfDice; i++) {
+        
+        des1 = Math.ceil(Math.random(i)* 6)
+        des2 = Math.ceil(Math.random(i)* 6)
+        console.log(des1, des2);
+        
+    }
+
+}
+launchDice(5)
